@@ -1,6 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "C3975149") (type "EasyEDA / JLCEDA Pro") (uri "${KIPRJMOD}/../footprints/C3975149.elibz") (options "") (descr ""))
-	(lib (name "C5174649") (type "EasyEDA / JLCEDA Pro") (uri "${KIPRJMOD}/../footprints/C5174649.elibz") (options "") (descr ""))
 	(lib (name "lcsc_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr "LCSC Manager imported footprints"))
 )

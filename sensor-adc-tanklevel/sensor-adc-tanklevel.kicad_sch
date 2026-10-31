@@ -11,514 +11,6 @@
 		(company "Sivuduuni Global Oy")
 	)
 	(lib_symbols
-		(symbol "C3975149:PM254-2-04-S-8.5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J2"
-				(at 0 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESP-01S"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "C3975149:HDR-SMD_8P-P2.54-V-F-R2-C4-S7.1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230609/7C6F8D8E301C6BBC8F19D55951C36597.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Holes Structure:2x4P Pitch:2.54mm Row Spacing:2.54mm Circular Hole / Square Hole:方孔 Mounting Type:Brick nogging Number of Rows:双排 Number of Holes:8P Current Rating (Max):3A Holes Direction:Top Insulation Height:8.5mm Contact Material:Copper Alloy Operatin"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C3975149"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Mfg Part" "PM254-2-04-S-8.5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "PM254-2-04-S-8.5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "HCTL(华灿天禄)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C3975149"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "2x4P 间距:2.54mm 立贴"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PM254-2-04-S-8.5_1_0"
-				(rectangle
-					(start -2.54 -6.35)
-					(end 2.54 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 5.08)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 3.81 180)
-					(length 2.54)
-					(name "Earth"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name "TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "Ch_PD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -1.27 180)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -3.81 180)
-					(length 2.54)
-					(name "RX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "C5174649:S7116-300A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "C5174649:SOD-323_L1.7-W1.3-LS2.5-RD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220916/6E626650AF012B3914EB9177AF15DFBA.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode Configuration: Forward Voltage (Vf@If):500mV@1A Reverse Voltage (Vr): Average Rectified Current (Io):"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "S7116-300A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "MSKSEMI(美森科)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier Part" "C5174649"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part Name" "S7116-300A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "S7116-300A_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.778) (xy -1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.778) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 -1.778) (xy 1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LCSC:100nF_(104)_±10%_16V"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2480,6 +1972,426 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LCSC:S7116-300A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "S7116-300A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C5174649_SOD-323_L1_7-W1_3-LS2_5-RD"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209161700_MSKSEMI-S7116-300A_C5174649.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "S7116-300A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5174649"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MSKSEMI(美森科)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "S7116-300A_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:PM254-2-04-S-8_5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PM254-2-04-S-8.5"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C3975149_HDR-SMD_8P-P2_54-V-F-R2-C4-S7_1"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306091018_HCTL-PM254-2-04-S-8-5_C3975149.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "PM254-2-04-S-8.5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C3975149"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "HCTL(华灿天禄)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PM254-2-04-S-8_5_1_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -3.81 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_names
@@ -2803,6 +2715,12 @@
 		(uuid "8547178e-e601-45ca-8f9a-b1298a5719e2")
 	)
 	(junction
+		(at 191.77 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ca57da1-0fa2-476a-8944-3485aa04eb51")
+	)
+	(junction
 		(at 121.92 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2813,18 +2731,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1ff29d9-957a-439a-84af-604458370eaa")
-	)
-	(junction
-		(at 107.95 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af1def90-05f0-4139-9bda-1f9f1837d211")
-	)
-	(junction
-		(at 191.77 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b979c828-01ed-42b1-86bc-e56aaa6ddf74")
 	)
 	(junction
 		(at 69.85 139.7)
@@ -2841,6 +2747,16 @@
 			(type default)
 		)
 		(uuid "020669c9-656c-4afc-86b3-4046de8855da")
+	)
+	(wire
+		(pts
+			(xy 191.77 115.57) (xy 191.77 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02413396-f0a7-437d-8460-82ec7cba3e52")
 	)
 	(wire
 		(pts
@@ -2914,13 +2830,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 110.49) (xy 191.77 115.57)
+			(xy 181.61 115.57) (xy 191.77 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28196f7d-f4b5-40b9-9cf3-92020a5cbcbf")
+		(uuid "21ea068f-949c-4252-bb4d-491cb626dea1")
 	)
 	(wire
 		(pts
@@ -2964,16 +2880,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 113.03) (xy 171.45 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "438f6fea-2fe8-42c5-849c-53055279f8db")
-	)
-	(wire
-		(pts
 			(xy 125.73 62.23) (xy 171.45 62.23)
 		)
 		(stroke
@@ -3004,13 +2910,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 115.57) (xy 171.45 115.57)
+			(xy 166.37 115.57) (xy 171.45 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "568cda31-c5bb-4862-95cb-96126b36e0dd")
+		(uuid "5144c538-3eaf-48f7-9db5-ff9a35ede160")
 	)
 	(wire
 		(pts
@@ -3024,6 +2930,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 120.65) (xy 191.77 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c109822-c718-4096-918e-e16fecde087d")
+	)
+	(wire
+		(pts
 			(xy 125.73 139.7) (xy 125.73 147.32)
 		)
 		(stroke
@@ -3031,16 +2947,6 @@
 			(type default)
 		)
 		(uuid "5c8cb1d1-deb4-4a16-b284-4ef10a55d1ef")
-	)
-	(wire
-		(pts
-			(xy 181.61 115.57) (xy 191.77 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "694e5210-97e0-487f-8c1f-3bf4229d9edf")
 	)
 	(wire
 		(pts
@@ -3091,6 +2997,16 @@
 			(type default)
 		)
 		(uuid "7e5ecc9c-0f8b-4b14-a4b6-4ee2cec0b570")
+	)
+	(wire
+		(pts
+			(xy 191.77 120.65) (xy 191.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8598ef95-f786-4086-8296-e970caf6506d")
 	)
 	(wire
 		(pts
@@ -3174,13 +3090,13 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 115.57) (xy 191.77 120.65)
+			(xy 171.45 113.03) (xy 163.83 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a157b890-4625-40c2-970a-2edb80d2fde9")
+		(uuid "a57462fe-990d-4e63-88f4-20e60170c5ab")
 	)
 	(wire
 		(pts
@@ -3191,6 +3107,16 @@
 			(type default)
 		)
 		(uuid "a70ef00d-d187-4f9a-9129-eec7418f7da3")
+	)
+	(wire
+		(pts
+			(xy 166.37 118.11) (xy 171.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ac5657-f168-43bc-ac38-6ae72b231edb")
 	)
 	(wire
 		(pts
@@ -3211,16 +3137,6 @@
 			(type default)
 		)
 		(uuid "adf9ac00-27d7-45ea-a2f8-e1349ea12d88")
-	)
-	(wire
-		(pts
-			(xy 162.56 118.11) (xy 171.45 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1b44135-22ab-496d-9f13-486112b8f7b7")
 	)
 	(wire
 		(pts
@@ -3284,13 +3200,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 125.73) (xy 167.64 113.03)
+			(xy 163.83 113.03) (xy 163.83 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7696278-1a31-44dd-a636-ed30f3a95a20")
+		(uuid "d63561cd-ea28-4331-9713-b941784470d1")
 	)
 	(wire
 		(pts
@@ -3321,16 +3237,6 @@
 			(type default)
 		)
 		(uuid "e291fb51-970a-4ffe-aede-a36dca6d7288")
-	)
-	(wire
-		(pts
-			(xy 191.77 120.65) (xy 181.61 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4792601-c3de-4ac3-a976-f4931f7dfe7c")
 	)
 	(wire
 		(pts
@@ -3392,6 +3298,26 @@
 		)
 		(uuid "ff62b3a8-f099-419e-82cb-68adf960c26f")
 	)
+	(label "SCL"
+		(at 166.37 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43a05b85-b69d-4e5b-83e2-4c2a05b5406c")
+	)
+	(label "SDA"
+		(at 166.37 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70c5f2d6-62de-4cb8-b514-5e8f74792228")
+	)
 	(label "PWR VCC"
 		(at 88.9 77.47 0)
 		(effects
@@ -3412,16 +3338,6 @@
 		)
 		(uuid "9d607996-f247-490c-afd1-16bcb85746da")
 	)
-	(label "SDA"
-		(at 162.56 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f6d3e7d-ef44-4945-9bde-787763184413")
-	)
 	(label "SENDER"
 		(at 88.9 82.55 0)
 		(effects
@@ -3431,16 +3347,6 @@
 			(justify left bottom)
 		)
 		(uuid "cc0b7eb1-445e-44bf-948d-108733d460a6")
-	)
-	(label "SCL"
-		(at 162.56 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7b14811-a1dc-4b87-9a8c-22e6d3f2bada")
 	)
 	(label "SCL"
 		(at 119.38 134.62 0)
@@ -3927,7 +3833,7 @@
 		)
 	)
 	(symbol
-		(lib_id "C3975149:PM254-2-04-S-8.5")
+		(lib_id "lcsc_imported:PM254-2-04-S-8_5")
 		(at 176.53 116.84 0)
 		(mirror y)
 		(unit 1)
@@ -3939,7 +3845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "298ed19b-c720-4c30-b869-a52415160e79")
-		(property "Reference" "J2"
+		(property "Reference" "CN2"
 			(at 176.53 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3949,7 +3855,7 @@
 				)
 			)
 		)
-		(property "Value" "ESP-01S"
+		(property "Value" "PM254-2-04-S-8.5"
 			(at 176.53 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,8 +3865,8 @@
 				)
 			)
 		)
-		(property "Footprint" "C3975149:HDR-SMD_8P-P2.54-V-F-R2-C4-S7.1"
-			(at 176.53 116.84 0)
+		(property "Footprint" "lcsc_footprints:C3975149_HDR-SMD_8P-P2_54-V-F-R2-C4-S7_1"
+			(at 176.53 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3970,8 +3876,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230609/7C6F8D8E301C6BBC8F19D55951C36597.pdf"
-			(at 176.53 116.84 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306091018_HCTL-PM254-2-04-S-8-5_C3975149.pdf"
+			(at 178.816 116.713 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3981,7 +3887,7 @@
 				)
 			)
 		)
-		(property "Description" "Holes Structure:2x4P Pitch:2.54mm Row Spacing:2.54mm Circular Hole / Square Hole:方孔 Mounting Type:Brick nogging Number of Rows:双排 Number of Holes:8P Current Rating (Max):3A Holes Direction:Top Insulation Height:8.5mm Contact Material:Copper Alloy Operatin"
+		(property "Description" "PM254-2-04-S-8.5"
 			(at 176.53 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4096,7 +4002,7 @@
 		(instances
 			(project "sensor-adc-tanklevel"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "J2")
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -4307,7 +4213,7 @@
 		)
 	)
 	(symbol
-		(lib_id "C5174649:S7116-300A")
+		(lib_id "LCSC:S7116-300A")
 		(at 102.87 77.47 0)
 		(mirror y)
 		(unit 1)
@@ -4319,7 +4225,7 @@
 		(dnp no)
 		(uuid "4f32a2f2-cfc0-474c-adce-a4908fc8502a")
 		(property "Reference" "D1"
-			(at 102.87 71.12 0)
+			(at 102.87 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4328,8 +4234,8 @@
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 102.87 73.66 0)
+		(property "Value" "S7116-300A"
+			(at 103.378 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4338,8 +4244,8 @@
 				)
 			)
 		)
-		(property "Footprint" "C5174649:SOD-323_L1.7-W1.3-LS2.5-RD"
-			(at 102.87 77.47 0)
+		(property "Footprint" "lcsc_footprints:C5174649_SOD-323_L1_7-W1_3-LS2_5-RD"
+			(at 102.87 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4349,8 +4255,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220916/6E626650AF012B3914EB9177AF15DFBA.pdf"
-			(at 102.87 77.47 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2209161700_MSKSEMI-S7116-300A_C5174649.pdf"
+			(at 105.156 77.343 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4360,7 +4266,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode Configuration: Forward Voltage (Vf@If):500mV@1A Reverse Voltage (Vr): Average Rectified Current (Io):"
+		(property "Description" "S7116-300A"
 			(at 102.87 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5053,6 +4959,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 191.77 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79339098-e5ca-4029-8e1f-44689571ed72")
+		(property "Reference" "#PWR0117"
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 191.77 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54cec9fe-b963-459b-a2b8-759d189a4473")
+		)
+		(instances
+			(project "sensor-adc-tanklevel"
+				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 69.85 157.48 0)
 		(unit 1)
@@ -5573,86 +5557,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 191.77 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1a6459c-7a9b-4f2c-a60f-c856e16a0b6c")
-		(property "Reference" "#PWR0107"
-			(at 191.77 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 191.77 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a114ac5d-195c-4802-84bc-651c52116129")
-		)
-		(instances
-			(project "sensor-adc-tanklevel"
-				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
-		(at 167.64 125.73 0)
+		(at 163.83 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5663,7 +5569,7 @@
 		(fields_autoplaced yes)
 		(uuid "c52d46f0-9687-4892-915f-ee35a6124c5b")
 		(property "Reference" "#PWR0104"
-			(at 167.64 132.08 0)
+			(at 163.83 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5674,7 +5580,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 167.64 129.54 0)
+			(at 163.83 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +5591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 125.73 0)
+			(at 163.83 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5696,7 +5602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 125.73 0)
+			(at 163.83 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5707,7 +5613,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 125.73 0)
+			(at 163.83 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
