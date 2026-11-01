@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Nemo-K Tank Sensor (AD1115)")
-		(date "2026-10-30")
+		(date "2026-11-01")
 		(rev "v1")
 		(company "Sivuduuni Global Oy")
 	)
@@ -6010,7 +6010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5277ae4-a8bf-4e4e-871d-068b3de51f64")
-		(property "Reference" "U3"
+		(property "Reference" "CN1"
 			(at 77.47 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6102,7 +6102,7 @@
 		(instances
 			(project "sensor-adc-tanklevel"
 				(path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-					(reference "U3")
+					(reference "CN1")
 					(unit 1)
 				)
 			)

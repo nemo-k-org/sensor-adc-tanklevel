@@ -614,9 +614,9 @@
 	(footprint "lcsc_footprints:C22367827_C0603"
 		(layer "F.Cu")
 		(uuid "1eef8387-533e-46a9-859b-9890b3dff112")
-		(at 129.3 85.25)
+		(at 129.3 85.75)
 		(property "Reference" "U5"
-			(at 0 -1.5 0)
+			(at -0.05 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "6f8afc61-34e0-4e19-a84c-d306bb847756")
 			(effects
@@ -2611,7 +2611,7 @@
 		(at 129.08 88.25)
 		(descr "100nF (104) ±10% 16V")
 		(property "Reference" "C2"
-			(at 0 -1.25 0)
+			(at 0 -1 0)
 			(layer "F.SilkS")
 			(uuid "6632fc4b-47ed-4d6b-bb3f-c4c34ed0f121")
 			(effects
@@ -3453,7 +3453,7 @@
 		(uuid "cd3851c8-43a7-44ba-a57d-7da51bf4d405")
 		(at 117.328 93.472 -90)
 		(property "Reference" "CN2"
-			(at 0 -6.4 90)
+			(at 6.028 3.578 90)
 			(layer "F.SilkS")
 			(uuid "b6e6744a-ffbf-4f20-b9d0-6d3137cc4895")
 			(effects
@@ -3464,7 +3464,7 @@
 			)
 		)
 		(property "Value" "PM254-2-04-S-8.5"
-			(at 0 6.4 90)
+			(at 0.278 4.578 90)
 			(layer "F.Fab")
 			(uuid "a9b764b4-15fb-4252-9a18-7dc2bc51ebd3")
 			(effects
@@ -4620,8 +4620,8 @@
 		(layer "F.Cu")
 		(uuid "f0eccc11-74b1-4ab9-a2c9-1c3d9188a6f1")
 		(at 145.5 94.6 90)
-		(property "Reference" "U3"
-			(at 8.85 0.25 90)
+		(property "Reference" "CN1"
+			(at 9.35 -2.75 90)
 			(layer "F.SilkS")
 			(uuid "27bb29a3-071c-4bf8-942d-139befa87f11")
 			(effects
@@ -5212,6 +5212,18 @@
 				(size 0.7 0.7)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "ESP01S\nGND"
+		(at 119.25 88 90)
+		(layer "F.SilkS")
+		(uuid "72f389a9-fddd-467f-ab5f-859006848ddf")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+			(justify left)
 		)
 	)
 	(gr_text "SEND\nGND"
@@ -5891,14 +5903,6 @@
 		(uuid "4b74e6a2-87e2-4269-83b2-7b4eb5c98e74")
 	)
 	(segment
-		(start 127.75 86.1)
-		(end 128.6 85.25)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Net-(D1-K)")
-		(uuid "6191b1ea-e0f3-42ee-8b38-ad3ea18cff73")
-	)
-	(segment
 		(start 127.75 88.5)
 		(end 127.75 86.1)
 		(width 0.25)
@@ -5921,6 +5925,14 @@
 		(layer "F.Cu")
 		(net "Net-(D1-K)")
 		(uuid "837d158f-c3a4-450d-9ce1-f6eddacd8c19")
+	)
+	(segment
+		(start 127.75 86.1)
+		(end 128.25 86.1)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D1-K)")
+		(uuid "9e3fb50f-e0a6-42e6-9e86-ec9389f37fc5")
 	)
 	(segment
 		(start 128.75 95.8)
@@ -5955,6 +5967,14 @@
 		(uuid "dc8a7aac-26e6-4a7b-b04a-b5980b4c5c09")
 	)
 	(segment
+		(start 128.25 86.1)
+		(end 128.6 85.75)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Net-(D1-K)")
+		(uuid "dd1106d2-f8c5-4d37-b5cb-b15810731b3a")
+	)
+	(segment
 		(start 126.25 90)
 		(end 127.75 88.5)
 		(width 0.25)
@@ -5971,14 +5991,6 @@
 		(uuid "f1aac5f1-1801-4ede-a1e6-f14ed8bbcae1")
 	)
 	(segment
-		(start 130.25 85.5)
-		(end 130.25 86.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Earth")
-		(uuid "0e5855e5-ffa0-48f8-80ec-f9ac1c998532")
-	)
-	(segment
 		(start 135 91.28)
 		(end 135 92.5)
 		(width 0.25)
@@ -5993,6 +6005,14 @@
 		(layer "F.Cu")
 		(net "Earth")
 		(uuid "3608309f-811b-4cae-a461-d817bb1fefbf")
+	)
+	(segment
+		(start 131 86.75)
+		(end 131 87)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Earth")
+		(uuid "4aa5902f-d5db-4166-a0d1-6531fbe3cee5")
 	)
 	(segment
 		(start 132.165 92.415)
@@ -6017,6 +6037,14 @@
 		(layer "F.Cu")
 		(net "Earth")
 		(uuid "59c0b0d5-3156-4b3c-8d49-5ee07acdbd28")
+	)
+	(segment
+		(start 130 85.75)
+		(end 131 86.75)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "Earth")
+		(uuid "687b2f48-4632-408e-b71c-82e99ef2c34b")
 	)
 	(segment
 		(start 129.25 91.1)
@@ -6049,14 +6077,6 @@
 		(layer "F.Cu")
 		(net "Earth")
 		(uuid "ada2f515-4f66-4d4c-b0ae-a81e074f3958")
-	)
-	(segment
-		(start 130 85.25)
-		(end 130.25 85.5)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "Earth")
-		(uuid "b4f2d57f-141a-48d3-8e79-4a12e1908489")
 	)
 	(segment
 		(start 130.15 91.1)
@@ -6115,7 +6135,7 @@
 		(uuid "f6c1b7ce-a284-4648-af42-94062fa984c7")
 	)
 	(via
-		(at 130.25 86.5)
+		(at 131 87)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -6654,7 +6674,9 @@
 	)
 	(group ""
 		(uuid "6c9d9d95-d6aa-4e28-97cd-8a7acaa7de3f")
-		(members "b307260c-7430-4ced-b89a-1bd0aa777e64" "dfa0b029-50de-4c42-8c1f-8f708cb93296")
+		(members "72f389a9-fddd-467f-ab5f-859006848ddf" "b307260c-7430-4ced-b89a-1bd0aa777e64"
+			"dfa0b029-50de-4c42-8c1f-8f708cb93296"
+		)
 	)
 	(group ""
 		(uuid "72ec288e-0b83-409a-afc7-111fa6e1c023")
