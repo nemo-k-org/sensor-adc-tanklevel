@@ -3168,13 +3168,12 @@
 			)
 		)
 	)
-	(footprint "lcsc_footprints:C57836_L0603"
+	(footprint "lcsc_footprints:C139210_L0603"
 		(layer "F.Cu")
 		(uuid "c1df7e53-71d1-46a1-9dfe-73696e41d6ba")
 		(at 126 96.95 90)
-		(descr "3.9uH")
 		(property "Reference" "L2"
-			(at -0.2 -1.5 90)
+			(at 0 -4 90)
 			(layer "F.SilkS")
 			(uuid "41a7a793-b2b1-4a44-822f-b2b0556b6b31")
 			(effects
@@ -3184,10 +3183,9 @@
 				)
 			)
 		)
-		(property "Value" "3.9uH"
+		(property "Value" "CMI160808U3R9KT"
 			(at 0 4 90)
 			(layer "F.Fab")
-			(hide yes)
 			(uuid "6dff84a9-75b9-47df-bc82-1e19f62ba0db")
 			(effects
 				(font
@@ -3196,7 +3194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2310301641_Sunlord-SDFL1608Q3R9KTF_C57836.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2302231230_FH--Guangdong-Fenghua-Advanced-Tech-CMI160808U3R9KT_C139210.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3207,7 +3205,7 @@
 				)
 			)
 		)
-		(property "Description" "3.9uH"
+		(property "Description" "CMI160808U3R9KT"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3218,12 +3216,23 @@
 				)
 			)
 		)
-		(property "LCSC" "C57836"
+		(property "LCSC Part" "C139210"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4cf806b-b37d-43b8-8972-a648ec2077b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C139210"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4cf806b-b37d-43b8-8972-a648ec2077b5")
+			(uuid "ec152248-75de-4586-98a1-c902d2ab0666")
 			(effects
 				(font
 					(size 1 1)
@@ -3231,12 +3240,12 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Sunlord(顺络)"
+		(property "Manufacturer" "FH(风华)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2933d58e-9e40-43e7-81b5-ac552f3203f4")
+			(uuid "9056c104-b046-4727-821c-76c9a73fc43f")
 			(effects
 				(font
 					(size 1 1)
@@ -3436,7 +3445,7 @@
 			(uuid "7fb24548-3e26-401b-88c4-487ee3ec8cab")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C57836.wrl"
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C139210.wrl"
 			(offset
 				(xyz 1.6 -0.5 0)
 			)
